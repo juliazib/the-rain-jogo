@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3E4B5A;
+    background-image: url(../assets/bg-image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.align-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.abertura-img {
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15%;
+    transition: width height 4s;
+}
+
+.abertura-img:hover {
+    width: 592.2px;
+    height: 89.25px;
+}
+
+.chamada-jogo {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    line-height: 2;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 4%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 8px #3f3d3d;;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #3E4B5A;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    transition: padding 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 45px;
+    padding-right: 45px;
+    cursor: pointer;
+
+}
+
+
+
+
+
