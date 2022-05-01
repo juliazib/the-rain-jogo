@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: #3E4B5A;
     background-image: url(../assets/bg-image.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -43,7 +42,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 18px;
     color: white;
-    text-shadow: 1px 1px 8px #3f3d3d;;
+    text-shadow: 1px 1px 8px #3f3d3d;
 }
 
 button {
