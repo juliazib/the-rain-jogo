@@ -57,14 +57,13 @@
     padding-bottom: 5%;
     padding-left: 12%;
     padding-right: 12%;
-    transition: padding 1s;
-}
+    transition: 1s;
+    }
 
 .caixinha:hover {
-    padding-top: 5.005%;
-    padding-bottom: 5.005%;
-    padding-left: 15.015%;
-    padding-right: 15.015%;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .caixinha img {
