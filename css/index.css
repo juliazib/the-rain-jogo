@@ -22,12 +22,13 @@ body {
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 15%;
-    transition: width height 4s;
+    transition: 1s;
 }
 
 .abertura-img:hover {
-    width: 592.2px;
-    height: 89.25px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .chamada-jogo {

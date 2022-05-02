@@ -51,6 +51,27 @@ main {
     background-size: cover; 
 }
 
+#martin-f1-bg {
+    background-image: url(../assets/fase1-m-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#martin-f2-bg {
+    background-image: url(../assets/fase2-m-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#martin-f3-bg {
+    background-image: url(../assets/fase3-m-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
 .texto {
     margin-top: 2%;
     margin-bottom: 1%;
