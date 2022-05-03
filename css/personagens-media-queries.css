@@ -1,0 +1,24 @@
+@media screen and (max-width: 750px) {
+    .contexto {
+        background-color: #3E4B5A;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 16px;
+        color: white;
+        padding: 1.5%;
+        line-height: 1.6;
+    }
+
+    .contexto p {
+        margin: 3%;
+    }
+
+    .personagens h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-personagens {
+        flex-direction: column;
+        align-items: center;
+    }
+}

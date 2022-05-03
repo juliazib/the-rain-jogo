@@ -1,0 +1,14 @@
+@media screen and (max-width: 700px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-container {
+        margin-bottom: 5%;
+    }
+
+    .final-img img {
+        width: 100%;
+    }
+}
